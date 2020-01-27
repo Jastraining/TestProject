@@ -33,6 +33,7 @@ public class Stepdefs {
     @Then("^user should be able to login$")
     public void user_should_be_able_to_login() throws Exception {
         driver.findElement(By.xpath("//*[@id=\"facebook\"]/body")).click();
+        System.out.println("hello");
         driver.quit();
 
     }
